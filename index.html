@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSpaker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--  <nav>  -->
+    <nav class="navbar  bg-primary navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Speakers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Register</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+    <h1 class="text-center bg-light p-3"> Motivational Speaker </h1>
+
+<!-- card -->
+<div class="card m-auto mt-5 border border-2 border-dark" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUGcqWZA1t1HQRmyM4t3we7I8Z2I_JeQSqWA&s" class="card-img-top p-2" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Sandeep Maheshwari</h5>
+    <p class="card-text">Sandeep Maheshwari is a name among millions who struggled, failed & surged ahead in pursuit of success</p>
+    <a href="#" class="btn btn-primary">Know More</a>
+  </div>
+</div>
+
+
+<section class="container my-5" id="schedule">
+  <h2 class="text-center mb-4">📅 Conference Schedule</h2>
+
+  <div class="accordion" id="conferenceSchedule">
+
+    <!-- Day 1 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingDay1">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay1" aria-expanded="true" aria-controls="collapseDay1">
+          Day 1 - July 26, 2025
+        </button>
+      </h2>
+      <div id="collapseDay1" class="accordion-collapse collapse show" aria-labelledby="headingDay1" data-bs-parent="#conferenceSchedule">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li class="list-group-item">🕘 09:00 AM - Opening Ceremony</li>
+            <li class="list-group-item">🧠 10:00 AM - Talk: Building a Growth Mindset</li>
+            <li class="list-group-item">🍽️ 01:00 PM - How to Build Inner Confidence</li>
+            <li class="list-group-item">🎤 03:00 PM - Q&A</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Day 2 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingDay2">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay2" aria-expanded="false" aria-controls="collapseDay2">
+          Day 2 - July 27, 2025
+        </button>
+      </h2>
+      <div id="collapseDay2" class="accordion-collapse collapse" aria-labelledby="headingDay2" data-bs-parent="#conferenceSchedule">
+        <div class="accordion-body">
+          <ul class="list-group">
+            <li class="list-group-item">🧑‍💻 09:30 AM - Confidence in Communication</li>
+            <li class="list-group-item">🤖 12:00 PM - Power Session: Reignite Your Passion</li>
+            <li class="list-group-item">🍔 01:00 PM - Lunch Break</li>
+            <li class="list-group-item">🌍 02:30 PM - Unlocking the Power Within</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Venue  -->
+ <section class="container my-5" id="venue">
+  <h2 class="text-center mb-4">📍 Venue & Location</h2>
+
+  <div class="row">
+    <!-- Venue Details -->
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">TechSphere Conference Hall</h5>
+          <p class="card-text">
+            123 Innovation Road,<br>
+            Bangalore, India<br>
+            PIN: 560001
+          </p>
+          <p class="card-text"><strong>Date:</strong> July 26–27, 2025</p>
+          <p class="card-text"><strong>Time:</strong> 9:00 AM to 5:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google Map Embed -->
+    <div class="col-md-6 mt-4 mt-md-0">
+      <div class="ratio ratio-4x3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.740735040525!2d77.59456211482024!3d12.971598790854376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670e3f387e5%3A0x5403b4b3f1c7b43c!2sBangalore%20Palace!5e0!3m2!1sen!2sin!4v1626273985671!5m2!1sen!2sin"
+          style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Registration -->
+<section class="container my-5 border border-2 border-dark pb-4" id="register">
+  <h2 class="text-center mb-4">📝 Register for MotivationSphear 2025</h2>
+
+  <form class="mx-auto" style="max-width: 600px;">
+    <!-- Name -->
+    <div class="mb-3">
+      <label for="name" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+    </div>
+
+    <!-- Ticket Type -->
+    <div class="mb-3">
+      <label for="ticket" class="form-label">Ticket Type</label>
+      <select class="form-select" id="ticket" required>
+        <option selected disabled value="">Choose a ticket...</option>
+        <option value="general">General Admission</option>
+        <option value="vip">VIP Access</option>
+        <option value="student">Student Pass</option>
+      </select>
+    </div>
+
+    <!-- Message -->
+    <div class="mb-3">
+      <label for="message" class="form-label">Message / Questions</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Any message or query?"></textarea>
+    </div>
+
+    <!-- Submit -->
+    <button type="submit" class="btn btn-primary w-100">Submit Registration</button>
+  </form>
+</section>
+
+
+
+
+<!-- testimonials -->
+<section class="container my-5  " id="testimonials">
+  <h2 class="text-center mb-4">🦄 What People Say</h2>
+
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Testimonial 1 -->
+      <div class="carousel-item active">
+        <div class="p-4 text-center bg-light rounded shadow">
+          <blockquote class="blockquote mb-4">
+            <p class="mb-0">"Akanksha’s talk truly changed my perspective on life. Her energy is infectious!"</p>
+          </blockquote>
+          <footer class="blockquote-footer">Meena Joshi, <cite title="Company">College Student</cite></footer>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="carousel-item">
+        <div class="p-4 text-center bg-light rounded shadow">
+          <blockquote class="blockquote mb-4">
+            <p class="mb-0">"Her session on mindset was powerful and full of practical takeaways."</p>
+          </blockquote>
+          <footer class="blockquote-footer">Rahul Deshmukh, <cite title="Company">Corporate Trainer</cite></footer>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="carousel-item">
+        <div class="p-4 text-center bg-light rounded shadow">
+          <blockquote class="blockquote mb-4">
+            <p class="mb-0">"A rare speaker who truly connects with her audience. Highly recommended!"</p>
+          </blockquote>
+          <footer class="blockquote-footer">Priya Kulkarni, <cite title="Company">Event Organizer</cite></footer>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+<!-- footer -->
+<footer class="bg-dark text-white py-4 mt-5 w-100">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center w-100">
+    
+    <!-- © Copyright -->
+    <p class="mb-2 mb-md-0">&copy; 2025 Akanksha Baykar. All rights reserved.</p>
+
+    <!-- Contact Email -->
+    <p class="mb-2 mb-md-0">📧 <a href="mailto:contact@akankshaspeaks.com" class="text-white text-decoration-underline">contact@akankshaspeaks.com</a></p>
+
+    <!-- Social Media Links -->
+    <div>
+      <a href="https://instagram.com" class="text-white me-3" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://linkedin.com" class="text-white me-3" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://youtube.com" class="text-white" target="_blank"><i class="bi bi-youtube"></i></a>
+    </div>
+
+  </div>
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
