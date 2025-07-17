@@ -26,7 +26,7 @@ This is a simple, elegant landing page designed for a **motivational speaker** e
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the live site](https://your-username.github.io/motivational-speaker-landing-page/)
+👉 [Click here to view the live site](https://motivationalspeaker.netlify.app/)
 
 ---
 
